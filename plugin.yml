@@ -5,6 +5,24 @@ version: 0.1.0
 load: POSTWORLD
 description: control your server chat.
 main: Praxthisnovcht\ChatPro\Main
+website: scmcpe.livehost.fr/
+permissions:
+  chatpro:
+    description: Allows using everything of chatpro
+    children:
+      chatpro.command:
+        description: Allows using /chatpro
+        children:
+          chatpro.command.mute:
+            default: op
+            description: Allows using /mute <player>
+          chatpro.command.unmute:
+            default: op
+            description: Allows using /unmute <player>
+      chatpro.command.kill:
+        description: Allows using /stats <player>
+        default: true
+
 
 
 
