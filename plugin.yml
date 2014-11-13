@@ -1,0 +1,14 @@
+﻿name: ProChat
+author: Praxthisnovcht
+api: [1.6.0]
+version: 0.1.0
+load: POSTWORLD
+description: control your server chat.
+main: Praxthisnovcht\ChatPro\Main
+
+
+
+
+
+
+
